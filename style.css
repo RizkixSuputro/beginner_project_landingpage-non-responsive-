@@ -128,3 +128,26 @@ a {
   color: #4f604c;
   font-size: 26px;
 }
+
+/* about section */
+
+.explanation-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 5rem;
+}
+.PorterGrow-content h1 {
+  font-size: 36px;
+  font-family: "Poppins", serif;
+  color: #5d4f4f;
+}
+.PorterGrow-content p {
+  width: 35vw;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  text-align: justify;
+  line-height: 1.5;
+  color: #5d4f4f;
+}
