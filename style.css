@@ -110,6 +110,7 @@ a {
   justify-content: space-between;
   align-items: center;
   gap: 20rem;
+  margin-right: 5rem;
 }
 .content-promotion h3 {
   font-family: "Open Sans", sans-serif;
