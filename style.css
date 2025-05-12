@@ -200,3 +200,61 @@ a {
   color: #bebebe;
   text-align: justify;
 }
+
+/* footer section */
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  height: 50vh;
+  background-color: #537d5d;
+  text-align: center;
+}
+footer h1 {
+  font-family: "Poppins", serif;
+  font-size: 48px;
+  color: #84be9b;
+}
+footer h2 {
+  color: white;
+  font-size: 48px;
+  font-family: "Poppins", serif;
+}
+footer span {
+  color: #35d929;
+}
+
+.copyright-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.copyright-content a,
+p,
+hr {
+  color: #b7b7b7;
+}
+.about-portergrow {
+  width: 30%;
+}
+.about-portergrow h1 {
+  text-align: center;
+}
+.about-portergrow p {
+  font-family: "Roboto", serif;
+  line-height: 1.5;
+  font-size: 20px;
+  text-align: left;
+}
+.footer-content {
+  margin-top: 15vh;
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  background-color: #537d5d;
+  text-align: center;
+}
+.social-links i {
+  font-size: 36px;
+  color: white;
+}
