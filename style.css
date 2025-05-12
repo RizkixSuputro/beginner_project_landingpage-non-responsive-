@@ -151,3 +151,52 @@ a {
   line-height: 1.5;
   color: #5d4f4f;
 }
+
+/* service section */
+.services-container h1 {
+  color: #5d4f4f;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 46px;
+  font-family: "Poppins", serif;
+}
+.card-container {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card {
+  width: 100%;
+  background-color: #73946b;
+  max-width: 451px;
+  height: auto;
+  aspect-ratio: 451/366;
+  border-radius: 16px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+.icons i {
+  margin-top: 1rem;
+  font-size: 64px;
+  color: #c7c7c7;
+}
+.content-explain-card {
+  margin-top: 30%;
+  padding: 2rem;
+}
+.content-explain-card h3 {
+  font-family: "Poppins", serif;
+  font-size: 24px;
+  color: white;
+}
+.content-explain-card p {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: #bebebe;
+  text-align: justify;
+}
